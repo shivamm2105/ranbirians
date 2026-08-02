@@ -58,7 +58,7 @@ export const memoryList = [
   },
   {
     id: 6,
-    title: "Bawal phone se pahli ki khusi 🤭",
+    title: "Bawal hone se pahli ki khusi 🤭",
     subtitle: "No matter where life takes us, Class X Batch 2022 will always be our golden chapter.",
     date: "2026",
     tag: "Golden Chapter",

@@ -218,7 +218,7 @@ export default function MemoryLetters() {
                   <span>From: {selectedLetter.sender}</span>
                 </div>
                 <div className="px-3 py-1 bg-amber-200/60 rounded-full border border-amber-900/20 font-bold text-amber-950 flex items-center gap-1">
-                  <span>Batch 2022</span>
+                  <span>Batch 2020</span>
                   <Heart className="w-3.5 h-3.5 text-rose-600 fill-current" />
                 </div>
               </div>

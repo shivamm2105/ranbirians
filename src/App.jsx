@@ -74,7 +74,7 @@ export default function App() {
                 </span>
               </div>
               <div className="px-3 py-1 rounded-full bg-amber-500/20 border border-amber-400/30 text-amber-300 text-xs font-semibold uppercase tracking-wider">
-                Batch 2022
+                Batch 2020
               </div>
             </nav>
 

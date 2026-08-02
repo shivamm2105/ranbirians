@@ -45,7 +45,7 @@ export default function MemoryNotebook() {
           Ranbirian Memory
         </text>
         <text x="50%" y="62%" dominantBaseline="middle" textAnchor="middle" fill="#F59E0B" fontSize="16" fontFamily="sans-serif" opacity="0.8">
-          Class X • Batch 2022
+          Class X • Batch 2020
         </text>
       </svg>
     );
@@ -200,7 +200,7 @@ export default function MemoryNotebook() {
                 {/* PAGE NUMBER COUNTER */}
                 <div className="w-full flex items-center justify-between border-t border-amber-900/15 pt-3 mt-2 text-xs font-bold text-amber-900/70">
                   <span className="font-handwriting text-base text-amber-800">
-                    Ranbirians Batch 2022
+                    Ranbirians Batch 2020
                   </span>
                   <span className="px-3 py-0.5 rounded-full bg-amber-200/50 border border-amber-900/20 font-mono">
                     Page {currentPage + 1} of {memoryList.length}
