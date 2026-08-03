@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, GraduationCap, ArrowRight } from 'lucide-react';
+import Footer from '../common/Footer';
 
 export default function Scene1Loader({ onStartJourney }) {
   const [loadingProgress, setLoadingProgress] = useState(0);
@@ -132,6 +133,10 @@ export default function Scene1Loader({ onStartJourney }) {
             </motion.button>
           </motion.div>
         )}
+      </div>
+
+      <div className="absolute bottom-2 inset-x-0 z-10 pointer-events-auto">
+        <Footer compact={true} />
       </div>
     </motion.div>
   );

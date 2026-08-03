@@ -6,6 +6,7 @@ import CardDetailModal from '../modals/CardDetailModal';
 import MemoryNotebook from '../common/MemoryNotebook';
 import MemoryLetters from '../common/MemoryLetters';
 import GuessWho from '../common/GuessWho';
+import Footer from '../common/Footer';
 import { Sparkles, Search, Heart, Award, Flame } from 'lucide-react';
 
 export default function Scene5MemoryWall({ sectionRef }) {
@@ -152,10 +153,8 @@ export default function Scene5MemoryWall({ sectionRef }) {
           </div>
         </motion.div>
 
-        {/* Bottom Footer Note */}
-        <div className="pt-16 text-xs md:text-sm text-amber-400/50 font-medium">
-          Ranbir International School • Class X Batch 2022 Memory Vault
-        </div>
+        {/* Footer Note & Developer Credit */}
+        <Footer />
       </div>
 
       {/* Classmate Detail Modal */}
