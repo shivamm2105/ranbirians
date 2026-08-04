@@ -12,9 +12,9 @@ export default function Scene4Hero({ onScrollToWall }) {
         <motion.div
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ duration: 25, repeat: Infinity, ease: 'linear' }}
-          className="w-full h-full bg-cover bg-center opacity-25 filter blur-sm"
+          className="w-full h-full bg-cover bg-center opacity-90 filter blur-sm"
           style={{
-            backgroundImage: `radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, rgba(8, 5, 3, 0.95) 80%), url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1600&auto=format&fit=crop')`
+            backgroundImage: `radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, rgba(8, 5, 3, 0.10) 80%), url('/images/memory/rbi.jpg')`
           }}
         />
         {/* Soft Radial Ambient Spotlight */}

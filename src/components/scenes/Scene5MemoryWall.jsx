@@ -9,7 +9,9 @@ import GuessWho from '../common/GuessWho';
 import Footer from '../common/Footer';
 import { Sparkles, Search, Heart, Award, Flame } from 'lucide-react';
 
-export default function Scene5MemoryWall({ sectionRef }) {
+import Scene9Credits from './Scene9Credits';
+
+export default function Scene5MemoryWall({ sectionRef, onReplayJourney }) {
   const [selectedClassmate, setSelectedClassmate] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -20,9 +22,9 @@ export default function Scene5MemoryWall({ sectionRef }) {
   );
 
   return (
-    <section 
-      ref={sectionRef} 
-      id="memory-wall" 
+    <section
+      ref={sectionRef}
+      id="memory-wall"
       className="relative min-h-screen w-full py-20 px-4 sm:px-6 lg:px-12 bg-[#080503] overflow-hidden"
     >
       {/* Background Soft Glow */}
@@ -113,8 +115,8 @@ export default function Scene5MemoryWall({ sectionRef }) {
       {/* SCENE 8: Guess Who Quiz Game */}
       <GuessWho />
 
-      {/* FINAL EMOTIONAL ENDING SEQUENCE */}
-      <div className="relative z-10 max-w-4xl mx-auto text-center mt-20 md:mt-32 space-y-8 pb-20">
+      {/* EMOTIONAL TRANSITION */}
+      <div className="relative z-10 max-w-4xl mx-auto text-center mt-20 md:mt-28 space-y-8 pb-12">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -141,21 +143,21 @@ export default function Scene5MemoryWall({ sectionRef }) {
           whileInView={{ opacity: 1, scale: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2, type: "spring", stiffness: 100 }}
-          className="pt-6"
+          className="pt-4"
         >
           <div className="inline-block p-8 md:p-12 rounded-3xl glass-panel border border-amber-400/40 shadow-2xl gold-glow-intense">
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-black font-serif-heading gold-gradient-text tracking-wider uppercase">
               WE WERE RANBIRIANS ❤️
             </h1>
             <p className="text-base md:text-xl font-handwriting text-amber-200 mt-4">
-              Class X - Batch 2022 Forever In Our Hearts
+              Scroll down at the bottom and wait for 10 second for cinematic ending...
             </p>
           </div>
         </motion.div>
-
-        {/* Footer Note & Developer Credit */}
-        <Footer />
       </div>
+
+      {/* SCENE 9: Cinematic Movie Credits & Bonus Ending */}
+      <Scene9Credits onReplay={onReplayJourney} />
 
       {/* Classmate Detail Modal */}
       {selectedClassmate && (

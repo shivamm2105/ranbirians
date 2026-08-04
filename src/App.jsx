@@ -35,6 +35,11 @@ export default function App() {
     }
   };
 
+  const handleReplayJourney = () => {
+    setCurrentScene(1);
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  };
+
   return (
     <div className="relative min-h-screen bg-[#080503] text-amber-50 selection:bg-amber-500 selection:text-black overflow-x-hidden font-sans">
       {/* Golden Background Particles */}
@@ -81,8 +86,8 @@ export default function App() {
             {/* Scene 4: Hero Section */}
             <Scene4Hero onScrollToWall={handleScrollToWall} />
 
-            {/* Scene 5: Classmate Memory Wall */}
-            <Scene5MemoryWall sectionRef={memoryWallRef} />
+            {/* Scene 5: Classmate Memory Wall & Final Movie Credits (Scene 9) */}
+            <Scene5MemoryWall sectionRef={memoryWallRef} onReplayJourney={handleReplayJourney} />
           </motion.div>
         )}
       </AnimatePresence>

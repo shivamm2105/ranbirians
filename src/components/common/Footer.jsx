@@ -21,7 +21,7 @@ export default function Footer({ compact = false }) {
           <span className="text-amber-500/40">•</span>
           <div className="flex items-center gap-1.5 text-pink-400 group-hover:text-pink-300 font-semibold">
             <Instagram className="w-4 h-4" />
-            <span>codebyshivam</span>
+            <span></span>
           </div>
         </a>
       </div>

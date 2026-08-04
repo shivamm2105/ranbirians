@@ -66,7 +66,7 @@ export default function GuessWho() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border border-amber-400/30 text-amber-300 text-xs font-semibold uppercase tracking-widest"
         >
           <HelpCircle className="w-4 h-4 text-amber-400" />
-          Scene 8 • Ranbirian Quiz Time
+          Ranbirian Quiz Time
         </motion.div>
 
         <motion.h2

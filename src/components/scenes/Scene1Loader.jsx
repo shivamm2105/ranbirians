@@ -135,7 +135,9 @@ export default function Scene1Loader({ onStartJourney }) {
         )}
       </div>
 
-
+      <div className="absolute bottom-2 inset-x-0 z-10 pointer-events-auto">
+        <Footer compact={true} />
+      </div>
     </motion.div>
   );
 }

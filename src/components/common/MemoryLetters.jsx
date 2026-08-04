@@ -48,7 +48,7 @@ export default function MemoryLetters() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border border-amber-400/30 text-amber-300 text-xs font-semibold uppercase tracking-widest"
         >
           <Mail className="w-4 h-4 text-amber-400" />
-          Scene 7 • Secret Letters Box
+          Secret Letters Box
         </motion.div>
 
         <motion.h3
