@@ -17,7 +17,7 @@ export default function Scene3Vault({ onUnlockSuccess }) {
 
     if (cleaned === CORRECT_PASSWORD) {
       setStatus('success');
-      
+
       // Screen Flash & Confetti Burst
       confetti({
         particleCount: 150,
@@ -74,7 +74,7 @@ export default function Scene3Vault({ onUnlockSuccess }) {
           </motion.div>
 
           <h2 className="text-2xl md:text-3xl font-extrabold font-serif-heading gold-gradient-text">
-            🔒 Ranbir Memories Vault
+            🔒 Ranbirian's Memories Vault
           </h2>
           <p className="text-xs md:text-sm text-amber-300/80 font-medium uppercase tracking-widest mt-1">
             Only Ranbirians Allowed

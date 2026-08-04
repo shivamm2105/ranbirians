@@ -9,7 +9,7 @@ export default function Scene2Celebration({ onComplete }) {
     "One Batch...",
     "One Classroom...",
     "Countless Memories ❤️",
-    "Welcome To Our Secret Memory Vault"
+    "Welcome To Our Legend Batch 2020"
   ];
 
   useEffect(() => {
@@ -48,12 +48,12 @@ export default function Scene2Celebration({ onComplete }) {
           return prev;
         }
       });
-    }, 900);
+    }, 1200);
 
     // 3. Move to Scene 3 after 3.8s
     const sceneTimer = setTimeout(() => {
       onComplete();
-    }, 3800);
+    }, 6000);
 
     return () => {
       clearInterval(interval);
@@ -99,9 +99,8 @@ export default function Scene2Celebration({ onComplete }) {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -25, scale: 1.05 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            className={`font-serif-heading font-extrabold text-3xl md:text-5xl lg:text-6xl tracking-wide ${
-              stepIndex === 3 ? 'gold-gradient-text gold-glow-intense' : 'text-amber-100'
-            }`}
+            className={`font-serif-heading font-extrabold text-3xl md:text-5xl lg:text-6xl tracking-wide ${stepIndex === 3 ? 'gold-gradient-text gold-glow-intense' : 'text-amber-100'
+              }`}
           >
             {textSequence[stepIndex]}
           </motion.h2>
