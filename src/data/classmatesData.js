@@ -63,9 +63,9 @@ export const classmates = [
     details: "Roll no.5",
     themeColor: "#10B981",
     rotation: 5,
-    avatarSeed: "Ahmad",
+    avatarSeed: "Anurag",
     gender: "male",
-    quote: "lashya ek hi hai aditya sir ko niklwana hai"
+    quote: "Bhai ek baar mummy papa permission de de to aa jaunga"
   },
   {
     id: "aradhana",
@@ -325,7 +325,7 @@ export const classmates = [
     rotation: -3,
     avatarSeed: "Vivek",
     gender: "male",
-    quote: "aaj resistance le aan vivek"
+    quote: "aaj resistance le aana vivek"
   },
   {
     id: "yash",
