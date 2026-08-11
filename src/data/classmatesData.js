@@ -26,7 +26,7 @@ export const classmates = [
     rotation: 3,
     avatarSeed: "Aditya1",
     gender: "male",
-    quote: "Aaj Ground Khali Hai, Match Pakka!"
+    quote: "Ek din mat ana fir pta chalega class me kya hota hai"
   },
   {
     id: "aditya-2",

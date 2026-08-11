@@ -9,7 +9,7 @@ export default function Scene3Vault({ onUnlockSuccess }) {
   const [status, setStatus] = useState('idle'); // 'idle' | 'wrong' | 'success'
   const [attempts, setAttempts] = useState(0);
 
-  const CORRECT_PASSWORD = "2020";
+  const CORRECT_PASSWORD = "chutiye dur rahe";
 
   const handleUnlock = (e) => {
     e.preventDefault();
