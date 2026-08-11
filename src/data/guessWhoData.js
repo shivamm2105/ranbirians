@@ -39,76 +39,41 @@ export const guessWhoQuestions = [
   {
     id: 6,
     questionNo: "06",
-    question: "Class me sabse jyda pyaar kisko hua tha ?",
-    answer: " One and only shu Shreyaaaaa",
-    tag: "Assembly Dodgers"
-  },
-  {
-    id: 7,
-    questionNo: "07",
-    question: "Hmare class ke sabse sweet couple kaun the? romantic ",
-    answer: "Ji Bilkul  Shreyaaaaa & sahilll",
-    tag: "Assembly Dodgers"
-  },
-  {
-    id: 8,
-    questionNo: "08",
     question: "Class me kisne pyaar me apna haath kata tha ? 📱",
     answer: "apne bilkul shi guess kiya",
     tag: "Assembly Dodgers"
   },
   {
-    id: 9,
-    questionNo: "09",
+    id: 7,
+    questionNo: "07",
     question: "Class ka Sabse accha baccha kaun tha ? 😇 ",
     answer: "One and Only gareshh Bhaiya",
     tag: "Backbenchers"
   },
   {
-    id: 10,
-    questionNo: "10",
-    question: "Class ka Sabse accha baccha kaun tha ? 😇 ",
-    answer: "One and Only gareshh Bhaiya",
-    tag: "Backbenchers"
-  },
-  {
-    id: 11,
-    questionNo: "11",
+    id: 8,
+    questionNo: "08",
     question: "Raaste me chagdii aane se kiska daant tut gya tha ? 🤔 ",
     answer: "Gaurav Tripathii",
     tag: "Backbenchers"
   },
   {
-    id: 12,
-    questionNo: "12",
-    question: "Jb kuch hawsi couple class ke andar apna karyakaram krte the to gate ke bahar dekh bhaal kaun krta tha ? 🤫😂 ",
-    answer: "The only mediator Aradhanaaa",
-    tag: "Backbenchers"
-  },
-  {
-    id: 13,
-    questionNo: "13",
+    id: 9,
+    questionNo: "09",
     question: "Class me wo kaun tha jisko ladkiyo ka bag check krte time kch Vichitra cheej mil gya tha ? 🤭",
     answer: "ye baatein btai nhi jati ",
     tag: "Backbenchers"
   },
   {
-    id: 14,
-    questionNo: "14",
-    question: "board ke paper ke last din kaun se 2 log pyaar ke bandhan me bandhe the ? 🤫",
-    answer: "The cuties Hariom & Shreyaaa",
-    tag: "Backbenchers"
-  },
-  {
-    id: 15,
-    questionNo: "15",
+    id: 10,
+    questionNo: "10",
     question: "Poori gallery ke gubbare chikkan ho gye ye kiski line thi ? ",
     answer: "Thakur Raja Manvendra Pratap Singh.",
     tag: "Backbenchers"
   },
   {
-    id: 16,
-    questionNo: "16",
+    id: 11,
+    questionNo: "11",
     question: "Agar tumhare hmare beech koi aaya to wo smjho mar gya kiski line thi ?",
     answer: "The Bodmashh Hariom Shuklaaaaa 🤣",
     tag: "Backbenchers"
