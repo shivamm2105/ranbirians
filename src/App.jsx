@@ -12,7 +12,7 @@ import BackgroundParticles from './components/common/BackgroundParticles';
 import AudioPlayer from './components/common/AudioPlayer';
 
 export default function App() {
-  const isMaintenance = true;
+  const isMaintenance = false;
   if (isMaintenance) {
     return (
       <div className="fixed inset-0 bg-black flex items-center justify-center z-50">
