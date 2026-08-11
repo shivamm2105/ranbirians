@@ -12,6 +12,19 @@ import BackgroundParticles from './components/common/BackgroundParticles';
 import AudioPlayer from './components/common/AudioPlayer';
 
 export default function App() {
+  const isMaintenance = true;
+  if (isMaintenance) {
+    return (
+      <div className="fixed inset-0 bg-black flex items-center justify-center z-50">
+        <img
+          src="/images/memory/notice.jpg" /* Yahan apni image ka naam daalein */
+          alt="Notice"
+          className="w-full h-full object-contain max-w-4xl p-4"
+        />
+      </div>
+    );
+  }
+  // Baaki saara purana code waisa hi rahega...
   const [currentScene, setCurrentScene] = useState(1);
   const [isUnlocked, setIsUnlocked] = useState(false);
   const memoryWallRef = useRef(null);
